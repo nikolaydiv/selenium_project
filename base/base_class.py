@@ -23,7 +23,7 @@ class Base():
         assert get_url == result
         print("Good value url")
 
-    # Method GET SCREENSHOT
+    # Method GET SCREENSHOTS
     def get_screenshot_buy_one_product(self):
         now_date = datetime.datetime.now().strftime("%d.%m.%Y.%H.%M.%S")
         name_screenshot = f"screenshot_{now_date}.png"
