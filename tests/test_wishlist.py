@@ -49,4 +49,3 @@ def test_wishlist(set_group):
     time.sleep(3)
     print("Finish TEST WISHLIST")
     driver.close()
-    # python -m pytest -sv test_wishlist.py

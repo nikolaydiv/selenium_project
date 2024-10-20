@@ -1,5 +1,3 @@
-import time
-
 from pages.comparison_page import ComparisonPage
 from pages.main_page import MainPage
 from pages.products_page import ProductsPage
@@ -37,4 +35,3 @@ def test_compare_products(set_group):
 
     print("Finish test")
     driver.close()
-    # python -m pytest -sv test_compare_products.py

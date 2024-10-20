@@ -47,4 +47,3 @@ def test_buy_several_products(set_group):
     time.sleep(5)
     print("Finish test")
     driver.close()
-    # python -m pytest -sv test_buy_several_products.py
